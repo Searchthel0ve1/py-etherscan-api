@@ -2,7 +2,7 @@ from .client import Client
 
 
 class Stats(Client):
-    def __init__(self, api_key='YourApiKeyToken'):
+    def __init__(self, api_key='KMK786MB5AZYQSFS5CW3JQ9AAW4DCX3AX4'):
         Client.__init__(self, address='', api_key=api_key)
         self.module = self.URL_BASES['module'] + 'stats'
 
