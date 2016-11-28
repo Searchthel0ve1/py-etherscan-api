@@ -18,7 +18,7 @@ class Client(object):
         address='&address=',
     )
 
-    def __init__(self, address, api_key='YourApiKeyToken'):
+    def __init__(self, address, api_key='KMK786MB5AZYQSFS5CW3JQ9AAW4DCX3AX4'):
         self.http = requests.session()
         self.url = ''
         self.module = ''
@@ -53,7 +53,7 @@ class Client(object):
             exit()
 
     def check_and_get_api(self):
-        if self.API_KEY != 'YourApiKeyToken':
+        if self.API_KEY != 'KMK786MB5AZYQSFS5CW3JQ9AAW4DCX3AX4':
             pass
         else:
-            self.API_KEY = input('Please type your EtherScan.io API key: ')
+            self.API_KEY = input('Please type your EtherScan.io API key:KMK786MB5AZYQSFS5CW3JQ9AAW4DCX3AX4 ')
